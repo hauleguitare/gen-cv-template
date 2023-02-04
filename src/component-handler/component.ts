@@ -1,10 +1,8 @@
-import {Header} from "../../../gen-dynamic-cv/src/components/layouts/Header";
-import Container from "../../../gen-dynamic-cv/src/components/container";
 import React, {FunctionComponent} from "react";
+import Container from "../components/container";
 
 // Declare Component Her
 const Components: {[key: string] : FunctionComponent<any>} = {
-    Header: Header,
     Container: Container
 }
 
