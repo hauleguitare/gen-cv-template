@@ -7,6 +7,6 @@ interface DynamicProps extends React.HTMLAttributes<HTMLElement> {
 export interface IAttributeComponent {
     _uid: string,
     component: string,
-    children?: IAttributeComponent[] | null
+    children?: IAttributeComponent[] | null | string
     props?: DynamicProps,
 }
